@@ -3,7 +3,6 @@
 
 #include "AlgorithmTools.hpp"
 #include "ConsoleInterface.hpp"
-#include "FileCSS.hpp"
 #include "FileHTML.hpp"
 
 #include <algorithm>
@@ -13,7 +12,7 @@
 #include <utility>  //REVIEW - For std::move()
 #include <vector>
 
-class FoodCourtSeatReservationSystem : public AlgorithmTools, public FileHTML, public FileCSS {
+class FoodCourtSeatReservationSystem : public AlgorithmTools, public FileHTML {
 
   private:
 

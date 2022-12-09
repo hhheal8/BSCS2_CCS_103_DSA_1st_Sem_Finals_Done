@@ -1,12 +1,14 @@
 #ifndef FILEHTML_H
 #define FILEHTML_H
 
+#include "FileCSS.hpp"
+
 #include <fstream>
 #include <string>
 #include <utility>
 #include <vector>
 
-class FileHTML {
+class FileHTML : public FileCSS {
 
   private:
 

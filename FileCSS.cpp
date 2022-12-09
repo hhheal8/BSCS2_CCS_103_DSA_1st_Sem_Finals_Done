@@ -13,8 +13,10 @@ auto FileCSS::write_in_file(
 }
 
 auto FileCSS::create_css_file(std::fstream &user_file_data) const -> void {
+
+  const std::string css_file_path_data{"data/" + css_file_path};
   
-  user_file_data.open(css_file_path, std::ios::out|std::ios::trunc);
+  user_file_data.open(css_file_path_data, std::ios::out|std::ios::trunc);
 
   write_in_file(user_file_data,
     "@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);\n",
@@ -151,6 +153,10 @@ auto FileCSS::create_css_file(std::fstream &user_file_data) const -> void {
 
   user_file_data.close();
 
+}
+
+auto FileCSS::read_css_file_link() const -> const std::string& {
+  return css_file_path;
 }
 
 auto FileCSS::create_css_file_data(std::fstream &user_file_data) const -> void{

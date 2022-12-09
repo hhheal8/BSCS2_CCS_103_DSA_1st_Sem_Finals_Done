@@ -1,6 +1,5 @@
 #include "AlgorithmTools.hpp"
 #include "ConsoleInterface.hpp"
-#include "FileCSS.hpp"
 #include "FileHTML.hpp"
 #include "FoodCourtSeatReservationSystem.hpp"
 
@@ -118,8 +117,7 @@ auto FoodCourtSeatReservationSystem::read_list_of_reserved_seat_contact() const 
 //SECTION - Setter, Getter, and Read for User File Name input
 
 auto FoodCourtSeatReservationSystem::set_user_file_name(std::string user_file_name) -> void {
-  m_user_file_name = std::move(user_file_name);
-  m_user_file_name.append(".html");
+  m_user_file_name = std::move(user_file_name.append(".html"));
 }
 auto FoodCourtSeatReservationSystem::get_user_file_name() -> std::string {
   return m_user_file_name;
@@ -449,8 +447,6 @@ auto FoodCourtSeatReservationSystem::save_data_interactive_webview(
     read_list_of_reserved_seat_fee(),
     read_list_of_reserved_seat_contact()
   );
-
-  create_css_file_data(user_file_data);
 
   user_interface->display_saving_data_success(read_user_file_name());
 

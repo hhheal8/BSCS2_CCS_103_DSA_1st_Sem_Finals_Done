@@ -450,7 +450,7 @@ auto ConsoleInterface::display_saving_data_in_html() const -> void {
 
 auto ConsoleInterface::display_saving_data_success(const std::string &user_file_name) const -> void {
   std::cout << m_line_separator;
-  std::cout << "!!!DATA SUCCESSFULLY SAVED TO = [" << user_file_name << "] !!!";
+  std::cout << "!!!DATA SUCCESSFULLY SAVED TO = [data/" << user_file_name << "]!!!";
   std::cout << m_line_separator;
 }
 
