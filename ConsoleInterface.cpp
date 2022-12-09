@@ -452,5 +452,5 @@ auto ConsoleInterface::display_saving_data_success(const std::string &user_file_
   std::cout << m_line_separator;
   std::cout << "!!!DATA SUCCESSFULLY SAVED TO = [data/" << user_file_name << "]!!!";
   std::cout << m_line_separator;
-}
+} 
 

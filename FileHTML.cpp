@@ -9,7 +9,7 @@
 template<typename ...DATA>
 auto FileHTML::write_in_file(
   std::fstream     &user_file_data,
-  DATA             &&...data
+  DATA             &&...data 
 ) const -> void {
   (user_file_data << ... << std::forward<DATA>(data));
 }
@@ -75,7 +75,7 @@ auto FileHTML::create_html_file(
     "\t\t\t<th>", "<h1>", "Schedule Hours", "</h1>", "</th>\n",
     "\t\t\t<th>", "<h1>", "Number of Customers", "</h1>", "</th>\n",
     "\t\t\t<th>", "<h1>", "Reserved Seat for Customer of", "</h1>", "</th>\n",
-    "\t\t\t<th>", "<h1>", "Reserved Seat Fee\'s", "</h1>", "</th>\n",
+    "\t\t\t<th>", "<h1>", "Reserved Seat Fees", "</h1>", "</th>\n",
     "\t\t\t<th>", "<h1>", "Reserved Seat Contacts", "</h1>", "</th>\n",
     "\t\t</tr>\n",
     "\t</thead>\n",

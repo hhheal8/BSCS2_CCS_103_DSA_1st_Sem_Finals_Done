@@ -145,6 +145,6 @@ class FoodCourtSeatReservationSystem : public AlgorithmTools, public FileHTML {
       std::fstream             &user_file_data
     ) -> void;
 
-};
+}; 
 
 #endif // FOODCOURTSEATRESERVATIONSYSTEM_H

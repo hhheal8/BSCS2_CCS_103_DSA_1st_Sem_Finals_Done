@@ -11,7 +11,7 @@
 class FileHTML : public FileCSS {
 
   private:
-
+ 
     template<typename ...DATA>
     auto write_in_file(
       std::fstream     &user_file_data,

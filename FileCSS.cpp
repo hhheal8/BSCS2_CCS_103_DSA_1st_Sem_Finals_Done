@@ -7,7 +7,7 @@
 template<typename ...DATA>
 auto FileCSS::write_in_file(
   std::fstream     &user_file_data,
-  DATA             &&...data
+  DATA             &&...data 
 ) const -> void {
   (user_file_data << ... << std::forward<DATA>(data));
 }

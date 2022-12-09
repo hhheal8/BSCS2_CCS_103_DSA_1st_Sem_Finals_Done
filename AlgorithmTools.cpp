@@ -4,7 +4,7 @@
 #include <iterator>
 #include <string>
 #include <utility>
-#include <vector>
+#include <vector> 
 
 auto AlgorithmTools::split_time(const std::string &schedule_hours) -> pair_of_int {
 

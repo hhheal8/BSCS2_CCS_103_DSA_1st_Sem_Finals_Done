@@ -125,7 +125,7 @@ auto main(int argc, char **argv) -> decltype(argc) {
       case EXIT_SYSTEM:
         user_interface->display_exit_msg();
 
-        delete user_interface;
+        delete user_interface; 
         user_interface = nullptr;
 
         delete waltermart_candelaria;

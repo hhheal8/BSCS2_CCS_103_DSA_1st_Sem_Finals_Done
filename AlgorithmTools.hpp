@@ -8,7 +8,7 @@
 #include <vector>
 
 class AlgorithmTools {
-
+ 
   private:
         
     using pair_of_int = std::pair<int, int>;

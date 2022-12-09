@@ -14,7 +14,7 @@ class FileCSS {
     template<typename ...DATA>
     auto write_in_file(
       std::fstream     &user_file_data,
-      DATA             &&...data
+      DATA             &&...data 
     ) const -> void;
 
     auto create_css_file(std::fstream &user_file_data) const -> void;
