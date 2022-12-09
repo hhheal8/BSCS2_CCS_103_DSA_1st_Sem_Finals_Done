@@ -1,3 +1,4 @@
+#include "FileCSS.hpp"
 #include "FileHTML.hpp"
 
 #include <fstream>
@@ -23,7 +24,7 @@ auto FileHTML::create_html_file(
   const std::vector<std::string> &list_of_reserved_seat_contact
 ) const -> void {
 
-  const std::string user_file_path{"../data/" + user_file_name};
+  const std::string user_file_path{"data/" + user_file_name};
 
   user_file_data.open(user_file_path, std::ios::out|std::ios::trunc);
 
@@ -43,7 +44,7 @@ auto FileHTML::create_html_file(
     "Waltermart Candelaria, Quezon - Branch Food Court Seat Reservation System",
     "</title>\n",
     "\n",
-    "\t<link href=\"style/style.css\" media=\"screen\" type=\"text/css\" rel=\"stylesheet\">\n",
+    "\t<link href=\"", read_css_file_link(), "\" media=\"screen\" type=\"text/css\" rel=\"stylesheet\">\n",
     "</head>\n",
     "\n",
 
@@ -124,6 +125,7 @@ auto FileHTML::create_html_file_data(
   const std::vector<long double> &list_of_reserved_seat_fee,
   const std::vector<std::string> &list_of_reserved_seat_contact
 ) const -> void {
+  create_css_file_data(user_file_data);
   create_html_file(
     user_file_name,
     user_file_data,
