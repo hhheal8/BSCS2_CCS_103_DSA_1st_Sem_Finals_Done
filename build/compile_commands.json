@@ -1,0 +1,32 @@
+[
+{
+  "directory": "C:/Users/ictgi/Desktop/BSCS2_CCS_103_DSA_RoveroGil_PatronHazel_1st_Sem_Finals_Done/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/FoodCourtSeatReservationSystem.dir/includes_CXX.rsp -g -o CMakeFiles\\FoodCourtSeatReservationSystem.dir\\main.cpp.obj -c C:\\Users\\ictgi\\Desktop\\BSCS2_CCS_103_DSA_RoveroGil_PatronHazel_1st_Sem_Finals_Done\\main.cpp",
+  "file": "C:/Users/ictgi/Desktop/BSCS2_CCS_103_DSA_RoveroGil_PatronHazel_1st_Sem_Finals_Done/main.cpp"
+},
+{
+  "directory": "C:/Users/ictgi/Desktop/BSCS2_CCS_103_DSA_RoveroGil_PatronHazel_1st_Sem_Finals_Done/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/FoodCourtSeatReservationSystem.dir/includes_CXX.rsp -g -o CMakeFiles\\FoodCourtSeatReservationSystem.dir\\sources\\AlgorithmTools.cpp.obj -c C:\\Users\\ictgi\\Desktop\\BSCS2_CCS_103_DSA_RoveroGil_PatronHazel_1st_Sem_Finals_Done\\sources\\AlgorithmTools.cpp",
+  "file": "C:/Users/ictgi/Desktop/BSCS2_CCS_103_DSA_RoveroGil_PatronHazel_1st_Sem_Finals_Done/sources/AlgorithmTools.cpp"
+},
+{
+  "directory": "C:/Users/ictgi/Desktop/BSCS2_CCS_103_DSA_RoveroGil_PatronHazel_1st_Sem_Finals_Done/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/FoodCourtSeatReservationSystem.dir/includes_CXX.rsp -g -o CMakeFiles\\FoodCourtSeatReservationSystem.dir\\sources\\ConsoleInterface.cpp.obj -c C:\\Users\\ictgi\\Desktop\\BSCS2_CCS_103_DSA_RoveroGil_PatronHazel_1st_Sem_Finals_Done\\sources\\ConsoleInterface.cpp",
+  "file": "C:/Users/ictgi/Desktop/BSCS2_CCS_103_DSA_RoveroGil_PatronHazel_1st_Sem_Finals_Done/sources/ConsoleInterface.cpp"
+},
+{
+  "directory": "C:/Users/ictgi/Desktop/BSCS2_CCS_103_DSA_RoveroGil_PatronHazel_1st_Sem_Finals_Done/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/FoodCourtSeatReservationSystem.dir/includes_CXX.rsp -g -o CMakeFiles\\FoodCourtSeatReservationSystem.dir\\sources\\FileCSS.cpp.obj -c C:\\Users\\ictgi\\Desktop\\BSCS2_CCS_103_DSA_RoveroGil_PatronHazel_1st_Sem_Finals_Done\\sources\\FileCSS.cpp",
+  "file": "C:/Users/ictgi/Desktop/BSCS2_CCS_103_DSA_RoveroGil_PatronHazel_1st_Sem_Finals_Done/sources/FileCSS.cpp"
+},
+{
+  "directory": "C:/Users/ictgi/Desktop/BSCS2_CCS_103_DSA_RoveroGil_PatronHazel_1st_Sem_Finals_Done/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/FoodCourtSeatReservationSystem.dir/includes_CXX.rsp -g -o CMakeFiles\\FoodCourtSeatReservationSystem.dir\\sources\\FileHTML.cpp.obj -c C:\\Users\\ictgi\\Desktop\\BSCS2_CCS_103_DSA_RoveroGil_PatronHazel_1st_Sem_Finals_Done\\sources\\FileHTML.cpp",
+  "file": "C:/Users/ictgi/Desktop/BSCS2_CCS_103_DSA_RoveroGil_PatronHazel_1st_Sem_Finals_Done/sources/FileHTML.cpp"
+},
+{
+  "directory": "C:/Users/ictgi/Desktop/BSCS2_CCS_103_DSA_RoveroGil_PatronHazel_1st_Sem_Finals_Done/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/FoodCourtSeatReservationSystem.dir/includes_CXX.rsp -g -o CMakeFiles\\FoodCourtSeatReservationSystem.dir\\sources\\FoodCourtSeatReservationSystem.cpp.obj -c C:\\Users\\ictgi\\Desktop\\BSCS2_CCS_103_DSA_RoveroGil_PatronHazel_1st_Sem_Finals_Done\\sources\\FoodCourtSeatReservationSystem.cpp",
+  "file": "C:/Users/ictgi/Desktop/BSCS2_CCS_103_DSA_RoveroGil_PatronHazel_1st_Sem_Finals_Done/sources/FoodCourtSeatReservationSystem.cpp"
+}
+]

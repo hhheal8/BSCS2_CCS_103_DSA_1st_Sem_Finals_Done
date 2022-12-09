@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\FoodCourtSeatReservationSystem.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\FoodCourtSeatReservationSystem.dir/objects.a @CMakeFiles\FoodCourtSeatReservationSystem.dir\objects1.rsp
+C:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\FoodCourtSeatReservationSystem.dir/objects.a -Wl,--no-whole-archive -o FoodCourtSeatReservationSystem.exe -Wl,--out-implib,libFoodCourtSeatReservationSystem.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\FoodCourtSeatReservationSystem.dir\linklibs.rsp

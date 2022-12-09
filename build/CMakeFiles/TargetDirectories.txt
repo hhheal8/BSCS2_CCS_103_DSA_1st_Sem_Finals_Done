@@ -1,0 +1,5 @@
+C:/Users/ictgi/Desktop/BSCS2_CCS_103_DSA_RoveroGil_PatronHazel_1st_Sem_Finals_Done/build/CMakeFiles/FoodCourtSeatReservationSystem.dir
+C:/Users/ictgi/Desktop/BSCS2_CCS_103_DSA_RoveroGil_PatronHazel_1st_Sem_Finals_Done/build/CMakeFiles/package.dir
+C:/Users/ictgi/Desktop/BSCS2_CCS_103_DSA_RoveroGil_PatronHazel_1st_Sem_Finals_Done/build/CMakeFiles/package_source.dir
+C:/Users/ictgi/Desktop/BSCS2_CCS_103_DSA_RoveroGil_PatronHazel_1st_Sem_Finals_Done/build/CMakeFiles/edit_cache.dir
+C:/Users/ictgi/Desktop/BSCS2_CCS_103_DSA_RoveroGil_PatronHazel_1st_Sem_Finals_Done/build/CMakeFiles/rebuild_cache.dir
