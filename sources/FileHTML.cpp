@@ -24,7 +24,7 @@ auto FileHTML::create_html_file(
   const std::vector<std::string> &list_of_reserved_seat_contact
 ) const -> void {
 
-  const std::string user_file_path{"data/" + user_file_name};
+  const std::string user_file_path{"../data/" + user_file_name};
 
   user_file_data.open(user_file_path, std::ios::out|std::ios::trunc);
 

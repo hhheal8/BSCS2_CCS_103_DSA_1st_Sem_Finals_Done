@@ -14,7 +14,7 @@ auto FileCSS::write_in_file(
 
 auto FileCSS::create_css_file(std::fstream &user_file_data) const -> void {
 
-  const std::string css_file_path_data{"data/" + css_file_path};
+  const std::string css_file_path_data{"../data/" + css_file_path};
   
   user_file_data.open(css_file_path_data, std::ios::out|std::ios::trunc);
 
